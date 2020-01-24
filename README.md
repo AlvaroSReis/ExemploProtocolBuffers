@@ -1,8 +1,15 @@
 # ProtocolBufferersExample
 Exemplo do uso de Protocol Bufferes no marshalling de mensagens
 
-precisa-se instalar o protoc
-Sudo apt install protobunf-compiler
+Precisa-se instalar o compilador
+
+
+```
+sudo apt install protobunf-compiler
+
+```
+
+apos isto executar o comando
 
 ```
 protoc --java_out=src/main/java/ aluno.proto
